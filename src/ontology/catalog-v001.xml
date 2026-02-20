@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/immunotest/imports/cl_import.owl" uri="imports/cl_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/immunotest/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/immunotest/imports/hgnc_import.owl" uri="imports/hgnc_import.owl"/>
+  </group>
+</catalog>
