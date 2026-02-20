@@ -1,0 +1,60 @@
+id: immunotest
+title: immunology-ontology-test
+github_org: krishnaTO
+repo: immuno-test
+report_fail_on: ERROR
+edit_format: obo
+use_mappings: True
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products:
+    # - id: cl
+    #   make_base: True
+    # - id: uberon
+    #   make_base: True
+    - id: hgnc
+      mirror_from: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
+      #mirror_from: https://storage.googleapis.com/public-download-files/hgnc/owl/owl/hgnc.owl
+      make_base: True
+      base_iris:
+        - http://purl.obolibrary.org/obo/
+        - http://purl.uniprot.org/uniprot/
+        - http://rgd.mcw.edu/rgdweb/report/gene/
+        - http://www.informatics.jax.org/accession/
+        - https://bioregistry.io/
+        - https://www.enzyme-database.org/query.php?ec=
+        - https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
+        - https://www.genenames.org/data/genegroup/#
+        - http://ontology.scibite.com/ontology/hgnc/
+      #module_type: slme
+documentation:
+  documentation_system: mkdocs
+robot_java_args: '-Xmx12G'
+robot_report:
+  use_base_iris: True
+  release_reports: False
+  fail_on : ERROR
+  use_labels : False
+  custom_profile : True
+  report_on :
+    - edit
+  sparql_test_on:
+    - edit
+    - immunotest-base.owl
+  custom_sparql_checks :
+    - equivalent-classes
+    - owldef-self-reference
+    - properties-as-annotation-and-object
+    - missing-label
+    - illegal-annotation-property
+    - orcid-contributor
+    - iri-range
+  custom_sparql_exports : 
+    - basic-report
+sssom_mappingset_group:
+  products:
+    - id: hubmap
+      mapping_set_id: hubmap-mapping-set
