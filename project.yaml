@@ -2,85 +2,99 @@ id: immunotest
 title: immunology-ontology-test
 github_org: krishnaTO
 repo: immuno-test
-report_fail_on: ERROR
+# report_fail_on: ERROR
 edit_format: obo
-use_mappings: True
-export_formats:
-  - owl
+# use_mappings: True
+# export_formats:
+#   - owl
   # - obo
   # - json
 import_group:
-  module_type: slme
   base_iris:
     - http://purl.obolibrary.org/obo/
   products:
+    - id: chr
+      make_base: True
+      base_iris:
+        - "http://purl.obolibrary.org/obo/CHR_"
+      mirror_from: https://raw.githubusercontent.com/monarch-initiative/monochrom/refs/heads/master/chr.owl
     - id: cl
       make_base: True
-      module_type: filter
-    - id: uberon
+    - id: ec
       make_base: True
-      module_type: filter
+      base_iris:
+        - https://www.enzyme-database.org/query.php?ec=
+      mirror_from: https://w3id.org/biopragmatics/resources/ec/ec.owl
+    - id: go
+      make_base: True
+      base_iris:
+        - http://purl.obolibrary.org/obo/GO_
     - id: hgnc
       mirror_from: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
       #mirror_from: https://storage.googleapis.com/public-download-files/hgnc/owl/owl/hgnc.owl
-      module_type: filter
-      make_base: True
-      use_base: True
+      # make_base: True
       module_type: slme
       base_iris:
         - https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
         - https://www.genenames.org/data/genegroup/#!/group/
         - http://ontology.scibite.com/ontology/hgnc/
-    - id: ec
-      make_base: True
-      module_type: filter
-      base_iris:
-        - https://www.enzyme-database.org/query.php?ec=
-    - id: chr
-      make_base: True
-      module_type: filter
-      base_iris:
-        - "https://bioregistry.io/chr:"
     - id: mgi
       make_base: True
-      module_type: filter
       base_iris:
         - "http://www.informatics.jax.org/accession/MGI:"
-    - id: uniprot
+      mirror_from: https://w3id.org/biopragmatics/resources/mgi/mgi.owl.gz
+    - id: nbo
       make_base: True
-      module_type: filter
+    - id: ncbitaxon
+      make_base: True
       base_iris:
-        - http://purl.uniprot.org/uniprot/
+        - http://purl.obolibrary.org/obo/NCBITaxon_
+      mirror_from: https://raw.githubusercontent.com/obophenotype/ncbitaxon/refs/heads/master/subsets/taxslim.obo
+      is_large: True
+    - id: pato
+      make_base: True
+    - id: pr
+      make_base: True
+      base_iris:
+        - http://purl.obolibrary.org/obo/PR_
     - id: rgd
       make_base: True
-      module_type: filter
       base_iris:
         - http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=
-documentation:
-  documentation_system: mkdocs
+      mirror_from: https://w3id.org/biopragmatics/resources/rgd/rgd.owl.gz
+    - id: uberon
+      make_base: True
+    # - id: uniprot
+    #   make_base: True
+    #   base_iris:
+    #     - http://purl.uniprot.org/uniprot/
+    #   mirror_from: https://w3id.org/biopragmatics/resources/uniprot/uniprot.obo.gz
+    #   is_large: True
+# documentation:
+#   documentation_system: mkdocs
 robot_java_args: '-Xmx12G'
-robot_report:
-  use_base_iris: True
-  release_reports: False
-  fail_on : ERROR
-  use_labels : False
-  custom_profile : True
-  report_on :
-    - edit
-  sparql_test_on:
-    - edit
-    - immunotest-base.owl
-  custom_sparql_checks :
-    - iri-range
-    #   - equivalent-classes
-    #   - owldef-self-reference
-    #   - properties-as-annotation-and-object
-    #   - missing-label
-    #   - illegal-annotation-property
-    #   - orcid-contributor
-    # custom_sparql_exports : 
-    #   - basic-report
-sssom_mappingset_group:
-  products:
-    - id: hubmap
-      mapping_set_id: hubmap-mapping-set
+# robot_report:
+#   use_base_iris: True
+#   release_reports: False
+#   fail_on : ERROR
+#   use_labels : False
+#   custom_profile : True
+#   report_on :
+#     - edit
+#   sparql_test_on:
+#     - edit
+#     - immunotest-base.owl
+#   custom_sparql_checks :
+#     - iri-range
+#     #   - equivalent-classes
+#     #   - owldef-self-reference
+#     #   - properties-as-annotation-and-object
+#     #   - missing-label
+#     #   - illegal-annotation-property
+#     #   - orcid-contributor
+#     # custom_sparql_exports : 
+#     #   - basic-report
+# sssom_mappingset_group:
+#   products:
+#     - id: hubmap
+#       mapping_set_id: hubmap-mapping-set
