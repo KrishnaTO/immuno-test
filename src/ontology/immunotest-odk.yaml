@@ -26,10 +26,9 @@ import_group:
     - id: uberon
       make_base: True
     - id: hgnc
-      mirror_from: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
-      #mirror_from: https://storage.googleapis.com/public-download-files/hgnc/owl/owl/hgnc.owl
-      make_base: True
-      use_base: True
+      #mirror_from: https://w3id.org/biopragmatics/resources/hgnc/hgnc.owl.gz
+      mirror_from: https://storage.googleapis.com/public-download-files/hgnc/owl/owl/hgnc.owl
+      # make_base: True
       module_type: slme
       base_iris:
         - https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/

@@ -1,0 +1,6 @@
+https://www.enzyme-database.org/query.php?ec=1.1.1.161
+https://www.enzyme-database.org/query.php?ec=2.7.10.1
+https://www.enzyme-database.org/query.php?ec=3.4.24.11
+https://www.enzyme-database.org/query.php?ec=4.3.1.3
+https://www.enzyme-database.org/query.php?ec=5.6.1.6
+https://www.enzyme-database.org/query.php?ec=6.3.1.2

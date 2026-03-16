@@ -1,0 +1,1479 @@
+Prefix(:=<http://purl.obolibrary.org/obo/immunotest/imports/chr_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/immunotest/imports/chr_import.owl>
+<http://purl.obolibrary.org/obo/immunotest/releases/2026-03-12/imports/chr_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/chr/releases/2025-10-15/chr.owl>)
+Annotation(owl:versionInfo "2026-03-12")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr10>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr10q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr10q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23.31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr11q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr11q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13.31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13.13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q21.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q23>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr12q23.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13q12>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13q12.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13q3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr13q34>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr14>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr14q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr14q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr14q11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr14q11.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16p11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16q24>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr16q24.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.32>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.33>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q23>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q23.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q24>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr17q24.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19q13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr19q13.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p21.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36.11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q21.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q23>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q23.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q24>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q24.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q25>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q25.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q31.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11.21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13.12>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr21q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr21q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr21q22>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr21q22.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr22>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr22q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr22q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr22q13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr22q13.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p11.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p13.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2p21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q31.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q32>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q32.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr2q35>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21.31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p24>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3p24.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3q25>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr3q25.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15.32>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4q12>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4q13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr4q13.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q11.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q32>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q33>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr5q33.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr6>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr6q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr6q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr6q21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr6q23>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr6q23.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7p>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7p1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7p14>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q21>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q21.3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q22>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q22.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q31>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr7q31.2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr9>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr9q>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr9q3>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34.11>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chrX>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chrXq>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chrXq1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chrXq12>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chrXq13>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHR_9606-chrXq13.1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000805>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030849>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1> (chromosome 1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1> "chromosome 1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr10> (chromosome 10 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr10> "chromosome 10 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr10q> (10q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr10q> "10q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr10>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr10q2> (10q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr10q2> "10q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr10q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr10q23> (10q23 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr10q23> "10q23 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr10q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3> (10q23.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3> "10q23.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr10q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.31> (10q23.31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.31> "10q23.31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23.31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr10q23.31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr10q23.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr11> (chromosome 11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr11> "chromosome 11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr11q> (11q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr11q> "11q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr11>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr11q2> (11q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr11q2> "11q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr11q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr11q23> (11q23 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr11q23> "11q23 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr11q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr11q23.2> (11q23.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr11q23.2> "11q23.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr11q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr11q23.3> (11q23.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr11q23.3> "11q23.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr11q23.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr11q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12> (chromosome 12 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12> "chromosome 12 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12p> (12p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12p> "12p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12p1> (12p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12p1> "12p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12p13> (12p13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12p13> "12p13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.3> (12p13.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.3> "12p13.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.31> (12p13.31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.31> "12p13.31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13.31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12p13.31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12p13.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q> (12q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q> "12q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q1> (12q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q1> "12q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q13> (12q13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q13> "12q13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1> (12q13.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1> "12q13.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.13> (12q13.13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.13> "12q13.13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13.13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q13.13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q13.1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q2> (12q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q2> "12q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q21> (12q21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q21> "12q21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q21.1> (12q21.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q21.1> "12q21.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q21.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q21.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q23> (12q23 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q23> "12q23 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q23> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q23> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr12q23.1> (12q23.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr12q23.1> "12q23.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q23.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr12q23.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr12q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13> (chromosome 13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13> "chromosome 13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13q> (13q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13q> "13q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13q1> (13q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13q1> "13q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr13q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13q12> (13q12 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13q12> "13q12 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q12> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q12> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr13q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13q12.2> (13q12.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13q12.2> "13q12.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q12.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q12.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr13q12>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13q3> (13q3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13q3> "13q3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr13q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr13q34> (13q34 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr13q34> "13q34 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q34> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr13q34> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr13q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr14> (chromosome 14 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr14> "chromosome 14 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr14q> (14q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr14q> "14q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr14>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr14q1> (14q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr14q1> "14q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr14q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr14q11> (14q11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr14q11> "14q11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr14q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr14q11.2> (14q11.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr14q11.2> "14q11.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q11.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr14q11.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr14q11>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16> (chromosome 16 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16> "chromosome 16 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16p> (16p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16p> "16p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16p1> (16p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16p1> "16p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16p11> (16p11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16p11> "16p11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2> (16p11.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2> "16p11.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16p11.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16p11>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16q> (16q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16q> "16q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16q2> (16q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16q2> "16q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16q24> (16q24 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16q24> "16q24 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q24> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q24> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr16q24.3> (16q24.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr16q24.3> "16q24.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q24.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr16q24.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr16q24>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17> (chromosome 17 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17> "chromosome 17 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17p> (17p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17p> "17p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17p1> (17p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17p1> "17p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17p13> (17p13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17p13> "17p13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17p13.1> (17p13.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17p13.1> "17p13.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17p13.2> (17p13.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17p13.2> "17p13.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17p13.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q> (17q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q> "17q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q2> (17q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q2> "17q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q21> (17q21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q21> "17q21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.2> (17q21.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.2> "17q21.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3> (17q21.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3> "17q21.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.31> (17q21.31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.31> "17q21.31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.32> (17q21.32 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.32> "17q21.32 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.32> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.32> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.33> (17q21.33 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.33> "17q21.33 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.33> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q21.33> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q21.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q23> (17q23 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q23> "17q23 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q23> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q23> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q23.3> (17q23.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q23.3> "17q23.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q23.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q23.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q24> (17q24 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q24> "17q24 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q24> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q24> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr17q24.3> (17q24.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr17q24.3> "17q24.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q24.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr17q24.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr17q24>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19> (chromosome 19 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19> "chromosome 19 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p> (19p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p> "19p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p1> (19p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p1> "19p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p13> (19p13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p13> "19p13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.1> (19p13.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.1> "19p13.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.11> (19p13.11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.11> "19p13.11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.2> (19p13.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.2> "19p13.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.3> (19p13.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19p13.3> "19p13.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19p13.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19q> (19q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19q> "19q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19q1> (19q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19q1> "19q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19q13> (19q13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19q13> "19q13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.2> (19q13.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr19q13.2> "19q13.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q13.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr19q13.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr19q13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p> (1p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p> "1p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p2> (1p2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p2> "1p2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p21> (1p21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p21> "1p21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p21.2> (1p21.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p21.2> "1p21.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p21.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p21.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p3> (1p3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p3> "1p3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p36> (1p36 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p36> "1p36 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.1> (1p36.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.1> "1p36.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p36>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.11> (1p36.11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.11> "1p36.11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36.11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1p36.11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1p36.1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q> (1q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q> "1q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q2> (1q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q2> "1q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q21> (1q21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q21> "1q21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q21.2> (1q21.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q21.2> "1q21.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q21.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q21.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q23> (1q23 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q23> "1q23 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q23> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q23> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q23.1> (1q23.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q23.1> "1q23.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q23.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q23.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q24> (1q24 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q24> "1q24 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q24> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q24> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q24.2> (1q24.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q24.2> "1q24.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q24.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q24.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q24>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q25> (1q25 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q25> "1q25 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q25> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q25> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q25.3> (1q25.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q25.3> "1q25.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q25.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q25.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q25>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q3> (1q3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q3> "1q3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q31> (1q31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q31> "1q31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q31.3> (1q31.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q31.3> "1q31.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q31.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q31.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q31>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q32> (1q32 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q32> "1q32 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q32.1> (1q32.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q32.1> "1q32.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q32>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr1q32.2> (1q32.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr1q32.2> "1q32.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr1q32.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr1q32>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2> (chromosome 2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2> "chromosome 2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20> (chromosome 20 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20> "chromosome 20 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20p> (20p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20p> "20p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20p1> (20p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20p1> "20p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20p11> (20p11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20p11> "20p11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2> (20p11.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2> "20p11.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20p11>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.21> (20p11.21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.21> "20p11.21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11.21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20p11.21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20p11.2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20q> (20q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20q> "20q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20q1> (20q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20q1> "20q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20q13> (20q13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20q13> "20q13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.1> (20q13.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.1> "20q13.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20q13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.12> (20q13.12 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.12> "20q13.12 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13.12> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr20q13.12> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr20q13.1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr21> (chromosome 21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr21> "chromosome 21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr21q> (21q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr21q> "21q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr21q2> (21q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr21q2> "21q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr21q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr21q22> (21q22 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr21q22> "21q22 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q22> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q22> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr21q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.3> (21q22.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr21q22.3> "21q22.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q22.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr21q22.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr21q22>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr22> (chromosome 22 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr22> "chromosome 22 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr22q> (22q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr22q> "22q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr22>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr22q1> (22q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr22q1> "22q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr22q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr22q13> (22q13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr22q13> "22q13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr22q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr22q13.2> (22q13.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr22q13.2> "22q13.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q13.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr22q13.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr22q13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p> (2p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p> "2p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p1> (2p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p1> "2p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p11> (2p11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p11> "2p11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p11.2> (2p11.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p11.2> "2p11.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p11.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p11.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p11>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p13> (2p13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p13> "2p13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p13.3> (2p13.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p13.3> "2p13.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p13.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p13.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p2> (2p2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p2> "2p2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2p21> (2p21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2p21> "2p21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2p21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2p2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q> (2q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q> "2q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q3> (2q3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q3> "2q3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q31> (2q31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q31> "2q31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q31.1> (2q31.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q31.1> "2q31.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q31.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q31.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2q31>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q32> (2q32 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q32> "2q32 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q32> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q32> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q32.2> (2q32.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q32.2> "2q32.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q32.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q32.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2q32>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr2q35> (2q35 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr2q35> "2q35 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q35> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr2q35> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr2q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3> (chromosome 3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3> "chromosome 3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p> (3p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p> "3p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p2> (3p2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p2> "3p2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p21> (3p21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p21> "3p21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3p2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.3> (3p21.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.3> "3p21.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3p21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.31> (3p21.31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.31> "3p21.31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21.31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p21.31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3p21.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p24> (3p24 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p24> "3p24 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p24> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p24> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3p2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3p24.1> (3p24.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3p24.1> "3p24.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p24.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3p24.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3p24>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3q> (3q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3q> "3q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3q2> (3q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3q2> "3q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3q25> (3q25 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3q25> "3q25 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q25> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q25> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr3q25.2> (3q25.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr3q25.2> "3q25.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q25.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr3q25.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr3q25>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4> (chromosome 4 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4> "chromosome 4 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4p> (4p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4p> "4p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4p1> (4p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4p1> "4p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4p15> (4p15 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4p15> "4p15 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3> (4p15.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3> "4p15.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4p15>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.32> (4p15.32 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.32> "4p15.32 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15.32> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4p15.32> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4p15.3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4q> (4q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4q> "4q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4q1> (4q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4q1> "4q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4q12> (4q12 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4q12> "4q12 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q12> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q12> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4q13> (4q13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4q13> "4q13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr4q13.3> (4q13.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr4q13.3> "4q13.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q13.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr4q13.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr4q13>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5> (chromosome 5 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5> "chromosome 5 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q> (5q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q> "5q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q1> (5q1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q1> "5q1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q11> (5q11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q11> "5q11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q11.2> (5q11.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q11.2> "5q11.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q11.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q11.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q11>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q3> (5q3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q3> "5q3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q32> (5q32 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q32> "5q32 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q32> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q32> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q33> (5q33 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q33> "5q33 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q33> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q33> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr5q33.1> (5q33.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr5q33.1> "5q33.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q33.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr5q33.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr5q33>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr6> (chromosome 6 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr6> "chromosome 6 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr6q> (6q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr6q> "6q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr6>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr6q2> (6q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr6q2> "6q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr6q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr6q21> (6q21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr6q21> "6q21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr6q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr6q23> (6q23 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr6q23> "6q23 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q23> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q23> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr6q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr6q23.2> (6q23.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr6q23.2> "6q23.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q23.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr6q23.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr6q23>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7> (chromosome 7 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7> "chromosome 7 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7p> (7p (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7p> "7p (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7p> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7p> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7p1> (7p1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7p1> "7p1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7p1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7p1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7p>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7p14> (7p14 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7p14> "7p14 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7p14> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7p14> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7p1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q> (7q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q> "7q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q2> (7q2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q2> "7q2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q21> (7q21 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q21> "7q21 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q21> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q21> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.3> (7q21.3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q21.3> "7q21.3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q21.3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q21.3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q21>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q22> (7q22 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q22> "7q22 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q22> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q22> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q2>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q22.1> (7q22.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q22.1> "7q22.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q22.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q22.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q22>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q3> (7q3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q3> "7q3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q31> (7q31 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q31> "7q31 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q31> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q31> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr7q31.2> (7q31.2 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr7q31.2> "7q31.2 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q31.2> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr7q31.2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr7q31>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr9> (chromosome 9 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr9> "chromosome 9 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9> <http://purl.obolibrary.org/obo/GO_0030849>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr9q> (9q (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr9q> "9q (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr9>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr9q3> (9q3 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr9q3> "9q3 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q3> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q3> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr9q>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr9q34> (9q34 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr9q34> "9q34 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr9q3>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1> (9q34.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1> "9q34.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr9q34>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.11> (9q34.11 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.11> "9q34.11 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34.11> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chr9q34.11> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chr9q34.1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chrX> (chromosome X (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chrX> "chromosome X (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrX> <http://purl.obolibrary.org/obo/GO_0000228>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrX> <http://purl.obolibrary.org/obo/GO_0000805>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrX> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chrXq> (Xq (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chrXq> "Xq (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chrX>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chrXq1> (Xq1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chrXq1> "Xq1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chrXq>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chrXq12> (Xq12 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chrXq12> "Xq12 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq12> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq12> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chrXq1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chrXq13> (Xq13 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chrXq13> "Xq13 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq13> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq13> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chrXq1>))
+
+# Class: <http://purl.obolibrary.org/obo/CHR_9606-chrXq13.1> (Xq13.1 (Human))
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHR_9606-chrXq13.1> "Xq13.1 (Human)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq13.1> <http://purl.obolibrary.org/obo/GO_0098687>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHR_9606-chrXq13.1> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CHR_9606-chrXq13>))
+
+
+)
