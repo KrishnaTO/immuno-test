@@ -1,0 +1,24 @@
+#!/bin/bash
+
+## Download OWL files
+# wget https://storage.googleapis.com/public-download-files/hgnc/owl/owl/hgnc.owl
+# wget http://purl.obolibrary.org/obo/uberon.owl
+# wget http://purl.obolibrary.org/obo/cl.owl
+
+## Extract terms from the source OWL files
+for id in cl hgnc uberon; do
+    docker run -it -v $(pwd):/tools/tmp obolibrary/odkfull \
+    robot extract --method MIREOT \
+        --input tmp/${id}.owl \
+        --lower-terms tmp/${id}_terms.txt \
+        --copy-ontology-annotations true \
+        -individuals exclude \
+        --output tmp/results/${id}_terms.owl
+done
+
+## Merge the extracted terms into a single file
+docker run -it -v $(pwd):/tools/tmp obolibrary/odkfull \
+    robot merge -i tmp/results/cl_terms.owl \
+        -i tmp/results/hgnc_terms.owl \
+        -i tmp/results/uberon_terms.owl \
+        --output tmp/results/merged_terms.owl
